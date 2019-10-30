@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(200, 0, 0);
+}
+p {
+    background-color: blue;
+}
+#choosen{
+    background-color: yellow;
+}
+.selected{
+  border: 5px solid green;
+  padding: 5px;
+}
+p:hover {
+    text-decoration: underline;
+}
+p::first-letter{
+font-size: 2rem;
+}
